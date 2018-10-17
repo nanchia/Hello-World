@@ -150,7 +150,7 @@ void delay_init()
 #if SYSTEM_SUPPORT_OS  							//如果需要支持OS.
 //延时nus
 //nus为要延时的us数.		    								   
-void delay_us(u32 nus)
+ void delay_us(u32 nus)
 {		
 	u32 ticks;
 	u32 told,tnow,tcnt=0;
@@ -174,7 +174,7 @@ void delay_us(u32 nus)
 }
 //延时nms
 //nms:要延时的ms数
-void delay_ms(u16 nms)
+ void delay_ms(u16 nms)
 {	
 	if(delay_osrunning&&delay_osintnesting==0)	//如果OS已经在跑了,并且不是在中断里面(中断里面不能任务调度)	    
 	{		 

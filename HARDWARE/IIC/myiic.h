@@ -8,9 +8,9 @@
 //#define SDA_OUT() {GPIOA->CRH&=0XFFFF0FFF;GPIOA->CRH|=3<<12;}
 
 //IO操作函数	 
-#define IIC_SCL    PAout(1) //SCL
-#define IIC_SDA    PAout(0) //SDA	 
-#define READ_SDA   PAin(0)  //输入SDA 
+#define IIC_SCL    PBout(14) //SCL
+#define IIC_SDA    PBout(15) //SDA	 
+#define READ_SDA   PBin(15)  //输入SDA 
 
 //IIC所有操作函数
 void IIC_Init(void);                //初始化IIC的IO口				 

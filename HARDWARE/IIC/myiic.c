@@ -12,7 +12,7 @@
 //Copyright(C) 正点原子 2009-2019
 //All rights reserved
 ////////////////////////////////////////////////////////////////////////////////// 	  
-void delay_us(unsigned int time) 
+ void delay_us(unsigned int time) 
 {         
 	unsigned int i=0;     
 	while(time--)   
@@ -23,7 +23,7 @@ void delay_us(unsigned int time)
 }  
 
 //毫秒级的延时  
-	void delay_ms(unsigned int time) 
+ void delay_ms(unsigned int time) 
 {        
 	unsigned long i=0;     
 	while(time--)   
@@ -37,35 +37,35 @@ void delay_us(unsigned int time)
 void SDA_IN(void)
 {
  GPIO_InitTypeDef  GPIO_InitStructure;
- RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOA, ENABLE );
- GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;				 //LED0-->PA.8 端口配置
+ RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOB, ENABLE );
+ GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;				 
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
- GPIO_Init(GPIOA, &GPIO_InitStructure);					 //根据设定参数初始化GPIOA.8
- GPIO_SetBits(GPIOA,GPIO_Pin_0);						 //PA.8 输出高
+ GPIO_Init(GPIOB, &GPIO_InitStructure);				
+ GPIO_SetBits(GPIOB,GPIO_Pin_15);						 
 }
 
 void SDA_OUT(void)
 {
  GPIO_InitTypeDef  GPIO_InitStructure;
-  RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOA, ENABLE );
- GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;				 //LED0-->PA.8 端口配置
+  RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOB, ENABLE );
+ GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;				 
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
- GPIO_Init(GPIOA, &GPIO_InitStructure);					 //根据设定参数初始化GPIOA.8
- GPIO_SetBits(GPIOA,GPIO_Pin_0);						 //PA.8 输出高
+ GPIO_Init(GPIOB, &GPIO_InitStructure);					 //根据设定参数初始化GPIOB15
+ GPIO_SetBits(GPIOB,GPIO_Pin_15);						 //PB15 输出高
 }
 //初始化IIC
 void IIC_Init(void)
 {					     
 	GPIO_InitTypeDef GPIO_InitStructure;
   //先使能外设IO PORTC时钟 
-	RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOA, ENABLE );	
+	RCC_APB2PeriphClockCmd(	RCC_APB2Periph_GPIOB, ENABLE );	
 	   
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_14|GPIO_Pin_15;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP ;   //推挽输出
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_Init(GPIOA, &GPIO_InitStructure);
+	GPIO_Init(GPIOB, &GPIO_InitStructure);
  
 	IIC_SCL=1;
 	IIC_SDA=1;
