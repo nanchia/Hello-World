@@ -31,5 +31,5 @@
 ..\obj\main.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\DIS\dis.h
-..\obj\main.o: ..\HARDWARE\IIC\myiic.h
+..\obj\main.o: ..\HARDWARE\IIC\IIC.h
 ..\obj\main.o: ..\SYSTEM\delay\delay.h

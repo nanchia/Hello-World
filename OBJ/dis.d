@@ -1,6 +1,6 @@
 ..\obj\dis.o: ..\HARDWARE\DIS\dis.c
 ..\obj\dis.o: ..\HARDWARE\DIS\dis.h
-..\obj\dis.o: ..\HARDWARE\IIC\myiic.h
+..\obj\dis.o: ..\HARDWARE\IIC\IIC.h
 ..\obj\dis.o: ..\SYSTEM\sys\sys.h
 ..\obj\dis.o: ..\USER\stm32f10x.h
 ..\obj\dis.o: ..\CORE\core_cm3.h

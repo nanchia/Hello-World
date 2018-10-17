@@ -1,5 +1,5 @@
 Dependencies for Project 'IIC', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5BC6E732)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5BC72381)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x5BC6D529)
 I (..\USER\stm32f10x.h)(0x5BC6D529)
 I (..\CORE\core_cm3.h)(0x5BC6D529)
@@ -30,8 +30,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BC6D529)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (..\HARDWARE\DIS\dis.h)(0x5BC6D8F0)
-I (..\HARDWARE\IIC\myiic.h)(0x5BC6D9FD)
+I (..\HARDWARE\DIS\dis.h)(0x5BC7262E)
+I (..\HARDWARE\IIC\IIC.h)(0x5BC6D9FD)
 I (..\SYSTEM\delay\delay.h)(0x5BC6DB22)
 F (.\stm32f10x_it.c)(0x5BC6D529)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x5BC6D529)
@@ -94,38 +94,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BC6D529)
-F (..\HARDWARE\IIC\myiic.c)(0x5BC6DB22)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
-I (..\HARDWARE\IIC\myiic.h)(0x5BC6D9FD)
-I (..\SYSTEM\sys\sys.h)(0x5BC6D529)
-I (..\USER\stm32f10x.h)(0x5BC6D529)
-I (..\CORE\core_cm3.h)(0x5BC6D529)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (..\USER\system_stm32f10x.h)(0x5BC6D529)
-I (..\USER\stm32f10x_conf.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BC6D529)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x5BC6D529)
-F (..\HARDWARE\SHT2X\SHT2x.c)(0x5BC6D529)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sht2x.o --omf_browse ..\obj\sht2x.crf --depend ..\obj\sht2x.d)
+F (..\HARDWARE\SHT2X\SHT2x.c)(0x5BC7262E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sht2x.o --omf_browse ..\obj\sht2x.crf --depend ..\obj\sht2x.d)
 I (..\HARDWARE\SHT2X\SHT2x.h)(0x5BC6D529)
 I (..\SYSTEM\sys\sys.h)(0x5BC6D529)
 I (..\USER\stm32f10x.h)(0x5BC6D529)
@@ -157,11 +126,42 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BC6D529)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5BC6D529)
 I (..\SYSTEM\delay\delay.h)(0x5BC6DB22)
-I (..\HARDWARE\IIC\myiic.h)(0x5BC6D9FD)
+I (..\HARDWARE\IIC\IIC.h)(0x5BC6D9FD)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\HARDWARE\DIS\dis.c)(0x5BC6D529)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\dis.o --omf_browse ..\obj\dis.crf --depend ..\obj\dis.d)
-I (..\HARDWARE\DIS\dis.h)(0x5BC6D8F0)
-I (..\HARDWARE\IIC\myiic.h)(0x5BC6D9FD)
+F (..\HARDWARE\DIS\dis.c)(0x5BC71243)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\dis.o --omf_browse ..\obj\dis.crf --depend ..\obj\dis.d)
+I (..\HARDWARE\DIS\dis.h)(0x5BC7262E)
+I (..\HARDWARE\IIC\IIC.h)(0x5BC6D9FD)
+I (..\SYSTEM\sys\sys.h)(0x5BC6D529)
+I (..\USER\stm32f10x.h)(0x5BC6D529)
+I (..\CORE\core_cm3.h)(0x5BC6D529)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x5BC6D529)
+I (..\USER\stm32f10x_conf.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5BC6D529)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5BC6D529)
+F (..\HARDWARE\IIC\IIC.c)(0x5BC7265E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SHT2X -I..\HARDWARE\DS18B20 -I..\HARDWARE\DIS-I D:\≤‚ ‘¿˝≥Ã\TM1651exam\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\iic.o --omf_browse ..\obj\iic.crf --depend ..\obj\iic.d)
+I (..\HARDWARE\IIC\IIC.h)(0x5BC6D9FD)
 I (..\SYSTEM\sys\sys.h)(0x5BC6D529)
 I (..\USER\stm32f10x.h)(0x5BC6D529)
 I (..\CORE\core_cm3.h)(0x5BC6D529)

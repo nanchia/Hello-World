@@ -1,6 +1,6 @@
 #include "SHT2x.h"
 #include "delay.h"
-#include "myiic.h"
+#include "IIC.h"
 #include<stdio.h>
 
 SHT2x_data SHT20;
